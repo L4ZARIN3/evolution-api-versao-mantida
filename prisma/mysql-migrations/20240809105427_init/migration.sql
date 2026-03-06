@@ -9,7 +9,7 @@ CREATE TABLE `Instance` (
     `integration` VARCHAR(100) NULL,
     `number` VARCHAR(100) NULL,
     `businessId` VARCHAR(100) NULL,
-    `token` VARCHAR(255) NULL,
+    `token` TEXT NULL,
     `clientName` VARCHAR(100) NULL,
     `disconnectionReasonCode` INTEGER NULL,
     `disconnectionObject` JSON NULL,
