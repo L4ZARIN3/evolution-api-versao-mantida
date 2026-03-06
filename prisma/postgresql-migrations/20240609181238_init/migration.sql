@@ -22,7 +22,7 @@ CREATE TABLE "Instance" (
     "profilePicUrl" VARCHAR(500),
     "integration" VARCHAR(100),
     "number" VARCHAR(100),
-    "token" VARCHAR(255),
+    "token" TEXT
     "clientName" VARCHAR(100),
     "createdAt" TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP,
